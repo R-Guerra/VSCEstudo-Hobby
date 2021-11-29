@@ -11,8 +11,6 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys 
 import pyautogui
 
-
-
 class Virtual_assit():
     def __init__(self, assist_name, person):
         self.person = person
