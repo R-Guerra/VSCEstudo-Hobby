@@ -32,7 +32,6 @@ class Virtual_assit():
 
     def record_audio(self, ask=""):
 
-
         with sr.Microphone() as source:
             if ask:
                 print('Gravando...')
