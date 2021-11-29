@@ -143,13 +143,6 @@ class Virtual_assit():
 
 assistent = Virtual_assit('Sasha', 'Guerra')
 
-#iniciandosistema = ('Iniciando Sistema Sasha. Versão zero ponto um. Modelo em teste alpha')
-#assistent.engine_speak(iniciandosistema)
-
-#fraseinicial = ('Olá. Eu sou a Sasha. O protótipo de i a criado por Ruan Guerra.')
-#assistent.engine_speak(fraseinicial)
-
-
 while True:
     
     voice_data = assistent.record_audio('Escutando...')
